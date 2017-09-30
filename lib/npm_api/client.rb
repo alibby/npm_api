@@ -1,4 +1,4 @@
-module NpmDownloadApi
+module NpmApi
   class Client
 
     def self.get(path)

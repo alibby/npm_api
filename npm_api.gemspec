@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "npm_download_api/version"
+require "npm_api/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "npm_download_api"
-  spec.version       = NpmDownloadApi::VERSION
+  spec.name          = "npm_api"
+  spec.version       = NpmApi::VERSION
   spec.authors       = ["Weston Platter"]
   spec.email         = ["westonplatter@gmail.com"]
 
   spec.summary       = %q{get stats from npm's stats service}
   spec.description   = %q{}
-  spec.homepage      = "https://github.com/westonplatter/npm_download_api"
+  spec.homepage      = "https://github.com/westonplatter/npm_api"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})

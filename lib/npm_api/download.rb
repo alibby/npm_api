@@ -1,4 +1,4 @@
-module NpmDownloadApi
+module NpmApi
   class Download
 
     def self.month_of(start_day, package=nil)

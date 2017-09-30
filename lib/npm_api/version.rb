@@ -1,3 +1,3 @@
-module NpmDownloadApi
+module NpmApi
   VERSION = "0.1.0"
 end
